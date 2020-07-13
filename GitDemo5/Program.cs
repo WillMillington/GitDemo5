@@ -23,7 +23,10 @@ namespace GitDemo5
 
             Console.WriteLine(Testing123());
 
+            HelloWorld();
         }
+
+        private static void HelloWorld() => Console.WriteLine("Hello world!");
 
         static string Testing123() => "I wonder what we'll find here 🙂";
     }
