@@ -6,9 +6,23 @@ namespace GitDemo5
     {
         static void Main()
         {
+
+            AwsomeSlide();
+			Console.WriteLine(Testing123());
+        }
+
+        public static void AwsomeSlide()
+        {
+            for (int i = 0; i < 10; i++)
+            {
+                Console.WriteLine("Weeeeeee....");
+            }
+            Console.WriteLine("That was a fun slide!!!");
+
             Console.WriteLine("Welcome to this Demo!");
 
             Console.WriteLine(Testing123());
+
         }
 
         static string Testing123() => "I wonder what we'll find here 🙂";
