@@ -8,7 +8,8 @@ namespace GitDemo5
     {
         public HelloWill()
         {
-            Console.WriteLine("Hello Will!");
+            Console.WriteLine("Hello Will Millington!");
+            Console.WriteLine("This session is useful if not somewhat difficult.");
         }
     }
 }
