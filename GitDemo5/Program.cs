@@ -6,12 +6,6 @@ namespace GitDemo5
     {
         static void Main()
         {
-
-            int num = 0;
-            for (int i = 0; i < 10; i++)
-            {
-                num += 1;
-            }
             Console.WriteLine("Welcome to this Demo!");
 
             Console.WriteLine(Testing123());
