@@ -6,11 +6,9 @@ namespace GitDemo5
 {
     class NewFileToAvoidMergeConflicts
     {
-
         static void PrintText()
         {
-            Console.WriteLine("9/11 was an inside job");
+            Console.WriteLine("Bush did 9/11");
         }
-
     }
 }
