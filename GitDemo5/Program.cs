@@ -6,8 +6,17 @@ namespace GitDemo5
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
-            Console.WriteLine("Weeeeeee....that was a fun slide!!!");
+            AwsomeSlide();
+
+        }
+
+        public static void AwsomeSlide()
+        {
+            for (int i = 0; i < 10; i++)
+            {
+                Console.WriteLine("Weeeeeee....");
+            }
+            Console.WriteLine("That was a fun slide!!!");
         }
     }
 }
